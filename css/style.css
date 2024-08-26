@@ -1,0 +1,133 @@
+.header,.hero,.body,.bar,.footer{
+	background-color: teal;
+	margin-bottom: 10px;
+}
+.box{
+	width: 200px;
+	height: 200px;
+	background-color:rgb(207, 128, 128) ;
+	font-size: 30px;
+	color: white;
+}
+.red{
+	background-color: lime;
+}
+.five{
+	background-color: blue;
+}
+
+
+#draggable { 
+	width: 150px; 
+	height: 150px; 
+	padding: 0.5em; 
+}
+
+#draggable2 { 
+	/* overflow: hidden; */
+	width: 100px; 
+	height: 100px; 
+	padding: 0.5em; 
+	float: left; 
+	margin: 10px 10px 10px 0; }
+  #droppable { 
+	/* overflow: hidden; */
+	width: 150px; 
+	height: 150px; 
+	padding: 0.5em; 
+	float: left; 
+	margin: 10px; }
+
+	.right1{
+		margin-left: 280px;
+	}
+
+	#resizable { 
+		width: 150px; 
+		height: 150px; 
+		padding: 0.5em; 
+		margin: 0 auto;
+	}
+  #resizable h3 { 
+	text-align: center; 
+	margin: 0 auto; 
+}
+
+#feedback { 
+	font-size: 1.4em; 
+}
+#selectable .ui-selecting { 
+	background: #FECA40; 
+}
+  #selectable .ui-selected { 
+	background: #8bf314; 
+	color: white; 
+}
+  #selectable { 
+	list-style-type: none; 
+	margin: 0; 
+	padding: 0; 
+	width: 60%; 
+}
+  #selectable li { 
+	width: 150px;
+	height: 50px; 
+	margin: 3px; 
+	padding: 0.4em; 
+	font-size: 1.4em; 
+	
+}
+
+#sortable { 
+	list-style-type: none; 
+	margin: 0; 
+	padding: 0; 
+	width: 60%; 
+}
+  #sortable li { 
+	width: 150px;
+	height: 50px;
+	margin: 0 3px 3px 3px; 
+	padding: 0.4em; 
+	padding-left: 1.5em; 
+	font-size: 1.4em; 
+	 
+}
+  #sortable li span { 
+	position: absolute;
+	margin-left: -1.3em; 
+}
+.accordion{
+	width: 500px;
+    height: 200px !important;
+}
+div{
+	display: block;
+}
+
+
+.toggler { 
+	margin-left: 550px;
+	width: 500px; 
+	height: 200px; 
+	position: relative; 
+}
+#button { 
+	margin-top: 50px;
+    margin-left: 550px;
+    margin-bottom: 60px;
+    padding: .5em 1em;
+    text-decoration: none;
+}
+#effect { 
+	width: 240px; 
+	height: 200px; 
+	padding: 0.4em; 
+	position: relative; 
+	background: #fff; 
+}
+#effect h3 { 
+	margin: 0; 
+	padding: 0.4em; 
+	text-align: center; 
+}
